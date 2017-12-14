@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-12-13_1031",
-    "currentPage": "about-carlos-romero",
+    "currentPage": "index.html",
     "theme": {
       "name": "restaurantm4",
       "title": "RestaurantM4",
@@ -314,7 +314,7 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Cultivating an authentic and vibrant lifestyle",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a> ",
                 "overlayOpacity": "0.3"
               },
               {
@@ -337,7 +337,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/yoga-in-bali-9388-2000x1333.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -373,7 +373,7 @@
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/dscf3015-2000x1333.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
