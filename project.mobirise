@@ -314,7 +314,8 @@
                 "overlay": true,
                 "contentAlign": "center",
                 "text": "Cultivating an authentic and vibrant lifestyle",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlayOpacity": "0.3"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/acroyoga-bali-2000x1333.jpg",
@@ -331,7 +332,8 @@
                 "overlay": true,
                 "contentAlign": "left",
                 "text": "in the path of Yoga, Movement &amp; Healing Arts as a way to discover your inner truth",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  btn-primary\" href=\"https://mobirise.com\">FOR WINDOWS</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline\" href=\"https://mobirise.com\">FOR MAC</a>",
+                "overlayOpacity": "0.4"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/yoga-in-bali-9388-2000x1333.jpg",
@@ -348,11 +350,12 @@
                 "overlay": true,
                 "contentAlign": "right",
                 "text": "200 Hour program covering Hatha, Vinyasa &amp; Elements of Yin Yoga<br>",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SIGN UP NOW</a>"
+                "buttons": "<a data-app-btn=\"true\" class=\"btn display-4 btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a> <a data-app-btn=\"true\" class=\"btn  btn-white-outline display-4\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">SIGN UP NOW</a>",
+                "overlayOpacity": "0.3"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/yoga-in-bali-7714-2000x1333.jpg",
-                "active": true,
+                "active": false,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -366,11 +369,11 @@
                 "contentAlign": "right",
                 "text": "90 HOUR THAI YOGA IMMERSION<br>March 1st - 10th, 2018<br>",
                 "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a> ",
-                "overlayOpacity": "0.3"
+                "overlayOpacity": "0.2"
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/dscf3015-2000x1333.jpg",
-                "active": false,
+                "active": true,
                 "showButtons": true,
                 "showText": true,
                 "showTitle": true,
@@ -383,7 +386,8 @@
                 "overlay": true,
                 "contentAlign": "right",
                 "text": "Cultivating an authentic and vibrant lifestyle",
-                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a> "
+                "buttons": "<a data-app-btn=\"true\" class=\"btn  display-4 btn-secondary\" href=\"https://mobirise.com\" data-toolbar=\"-mbrBtnMove\">LEARN MORE</a> ",
+                "overlayOpacity": "0.3"
               }
             ]
           }
