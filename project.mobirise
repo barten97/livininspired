@@ -52,7 +52,7 @@
           "_params": {
             "autoplay": true,
             "animType": "kenburns",
-            "theme": "calm",
+            "theme": "absent",
             "slides": [
               {
                 "image": "@PROJECT_PATH@/assets/images/bali-yoga-carlos-romero-1350x900.jpg",
