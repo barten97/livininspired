@@ -55,7 +55,7 @@
             "theme": "absent",
             "slides": [
               {
-                "image": "@PROJECT_PATH@/assets/images/bali-yoga-carlos-romero-1350x900.jpg",
+                "image": "@PROJECT_PATH@/assets/images/bali-yoga-carlos-romero-1600x1066.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/bali-yoga-carlos-romero-2000x1333.jpg",
@@ -65,7 +65,7 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/livin-inspired-bali-1350x900.jpg",
+                "image": "@PROJECT_PATH@/assets/images/livin-inspired-bali-1600x1066.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/livin-inspired-bali-2000x1333.jpg",
@@ -75,7 +75,7 @@
                 "active": true
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/thai-yoga-retreat-bali-1350x900.jpg",
+                "image": "@PROJECT_PATH@/assets/images/thai-yoga-retreat-bali-1600x1066.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/thai-yoga-retreat-bali-2000x1333.jpg",
@@ -85,7 +85,7 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/acroyoga-bali-1350x900.jpg",
+                "image": "@PROJECT_PATH@/assets/images/acroyoga-bali-1600x1066.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/acroyoga-bali-2000x1333.jpg",
@@ -95,7 +95,7 @@
                 "active": false
               },
               {
-                "image": "@PROJECT_PATH@/assets/images/yoga-surf-retreat-bali-1600x873.jpg",
+                "image": "@PROJECT_PATH@/assets/images/yoga-surf-retreat-bali-1-1600x873.jpg",
                 "linkUrl": "http://google.com",
                 "link": false,
                 "src": "@PROJECT_PATH@/assets/images/yoga-surf-retreat-bali-2000x1092.jpg",
@@ -109,8 +109,8 @@
             "showCaptions": false,
             "hideControls": true,
             "responsive": "2",
-            "paddingTop": 0,
-            "paddingBottom": 0,
+            "paddingTop": "3",
+            "paddingBottom": "0",
             "captionsEffect": "slide",
             "showBullets": false,
             "bgColor": "#ffffff",
@@ -119,9 +119,9 @@
             "customSize": false,
             "customWidth": "1600",
             "customHeight": "1080",
-            "size": "1024x576",
-            "width": "1024",
-            "height": "576"
+            "size": "1600x1080",
+            "width": "1600",
+            "height": "1080"
           },
           "articleLayout": false,
           "alias": "wowslider",
