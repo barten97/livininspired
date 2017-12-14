@@ -107,7 +107,7 @@
             ],
             "fullScreen": true,
             "showCaptions": false,
-            "hideControls": false,
+            "hideControls": true,
             "responsive": "2",
             "paddingTop": 0,
             "paddingBottom": 0,
