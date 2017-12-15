@@ -1002,7 +1002,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #232323;
+  background-color: #3789a0;
 }
 .cid-qDHzjd8XKV button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1046,7 +1046,6 @@ body {
 }
 .cid-qDHzjd8XKV .navbar-dropdown {
   padding: .5rem 1rem;
-  position: fixed;
 }
 .cid-qDHzjd8XKV a.nav-link {
   justify-content: center;
