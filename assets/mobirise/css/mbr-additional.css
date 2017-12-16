@@ -1586,6 +1586,7 @@ body {
   min-height: 77px;
   transition: all .3s;
   background: #ffffff;
+  background: none;
 }
 .cid-qDJXYkawrv .navbar.opened {
   transition: all .3s;
@@ -1745,7 +1746,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #232323;
+  background-color: #3789a0;
 }
 .cid-qDJXYkawrv button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -1789,7 +1790,6 @@ body {
 }
 .cid-qDJXYkawrv .navbar-dropdown {
   padding: .5rem 1rem;
-  position: fixed;
 }
 .cid-qDJXYkawrv a.nav-link {
   justify-content: center;
@@ -1993,6 +1993,7 @@ body {
   min-height: 77px;
   transition: all .3s;
   background: #ffffff;
+  background: none;
 }
 .cid-qDJXYkawrv .navbar.opened {
   transition: all .3s;
@@ -2152,7 +2153,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #232323;
+  background-color: #3789a0;
 }
 .cid-qDJXYkawrv button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -2196,7 +2197,6 @@ body {
 }
 .cid-qDJXYkawrv .navbar-dropdown {
   padding: .5rem 1rem;
-  position: fixed;
 }
 .cid-qDJXYkawrv a.nav-link {
   justify-content: center;
@@ -2362,6 +2362,7 @@ body {
   min-height: 77px;
   transition: all .3s;
   background: #ffffff;
+  background: none;
 }
 .cid-qDMXr6nvgz .navbar.opened {
   transition: all .3s;
@@ -2521,7 +2522,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #232323;
+  background-color: #3789a0;
 }
 .cid-qDMXr6nvgz button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -2565,7 +2566,6 @@ body {
 }
 .cid-qDMXr6nvgz .navbar-dropdown {
   padding: .5rem 1rem;
-  position: fixed;
 }
 .cid-qDMXr6nvgz a.nav-link {
   justify-content: center;
@@ -2946,6 +2946,7 @@ body {
   min-height: 77px;
   transition: all .3s;
   background: #ffffff;
+  background: none;
 }
 .cid-qDMXtI8ha7 .navbar.opened {
   transition: all .3s;
@@ -3105,7 +3106,7 @@ body {
   width: 30px;
   height: 2px;
   border-right: 5px;
-  background-color: #232323;
+  background-color: #3789a0;
 }
 .cid-qDMXtI8ha7 button.navbar-toggler .hamburger span:nth-child(1) {
   top: 0;
@@ -3149,7 +3150,6 @@ body {
 }
 .cid-qDMXtI8ha7 .navbar-dropdown {
   padding: .5rem 1rem;
-  position: fixed;
 }
 .cid-qDMXtI8ha7 a.nav-link {
   justify-content: center;
