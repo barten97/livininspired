@@ -75,7 +75,7 @@
                 "tooltip": "@PROJECT_PATH@/assets/images/livin-inspired-bali-72x48.png",
                 "title": "title 2",
                 "text": "text 2",
-                "active": false
+                "active": true
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/livin-inspired-yoga-surfing-retreat-1600x1067.jpg",
@@ -105,7 +105,7 @@
                 "tooltip": "@PROJECT_PATH@/assets/images/livin-inspired-retreats-72x48.png",
                 "title": "title 2",
                 "text": "text 2",
-                "active": true
+                "active": false
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/thai-yoga-retreat-bali-1-1600x1066.jpg",
@@ -127,8 +127,8 @@
             "captionsEffect": "slide",
             "showBullets": false,
             "bgColor": "#ffffff",
-            "timeout": "6",
-            "duration": "3.5",
+            "timeout": "4",
+            "duration": "2.5",
             "customSize": false,
             "customWidth": "1600",
             "customHeight": "1080",
