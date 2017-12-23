@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Site-12-13_1031",
-    "currentPage": "yoga-bali.html",
+    "currentPage": "retreats.html",
     "theme": {
       "name": "restaurantm4",
       "title": "RestaurantM4",
@@ -39,10 +39,20 @@
       ]
     },
     "versionFirst": "4.5.2",
-    "uniqCompNum": 81,
+    "uniqCompNum": 96,
     "versionPublish": "4.5.2",
     "mcShopcart": {
-      "email": "omlivininspired@gmail.com"
+      "email": "carlos@livininspired.com",
+      "iconSize": "40",
+      "iconColor": "#FFFFFF",
+      "backColor": "#f1bf76",
+      "topOffset": "120",
+      "rightOffset": "20",
+      "siteWidth": "1150",
+      "counterSize": "12",
+      "counterColor": "#FFFFFF",
+      "counterBack": "#F97352",
+      "checkoutButton": "Check Out with"
     }
   },
   "pages": {
@@ -503,7 +513,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#69b9d0\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" condition=\"showItems\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons && showItems\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#3789a0\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/livin-inspired-thai-yoga-1851x1191.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">RestaurantM4</a>\n            </span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">HOME</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"healing-arts.html\" data-app-selector=\".nav-link,.dropdown-item\">HEALING ARTS</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"yoga-bali.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"yoga-teacher-training.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA TEACHER TRAINING</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">RETREATS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">CALENDAR</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"about-carlos-romero\" data-app-selector=\".nav-link,.dropdown-item\">ABOUT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"contact-us.html\" data-app-selector=\".nav-link,.dropdown-item\">CONNECT<br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\"></a></li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"http://www.instagram.com/livininspired\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"http://www.facebook.com/carlitosyoga\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"mailto:carlos@livininspired.com\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-mail socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-behance socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-googleplus socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-black-outline\" href=\"https://mobirise.com\">CONTACT US</a>\n            </div>\n      </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#69b9d0\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" condition=\"showItems\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons && showItems\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#3789a0\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/livin-inspired-thai-yoga-1851x1191.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">RestaurantM4</a>\n            </span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">HOME</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"healing-arts.html\" data-app-selector=\".nav-link,.dropdown-item\">HEALING ARTS</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"yoga-bali.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"yoga-teacher-training.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA TEACHER TRAINING</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"retreats.html\" data-app-selector=\".nav-link,.dropdown-item\">RETREATS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">CALENDAR</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"about-carlos-romero\" data-app-selector=\".nav-link,.dropdown-item\">ABOUT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"contact-us.html\" data-app-selector=\".nav-link,.dropdown-item\">CONNECT<br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\"></a></li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"http://www.instagram.com/livininspired\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"http://www.facebook.com/carlitosyoga\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"mailto:carlos@livininspired.com\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-mail socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-behance socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-googleplus socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-black-outline\" href=\"https://mobirise.com\">CONTACT US</a>\n            </div>\n      </div>\n    </nav>\n</section>",
           "_cid": "qDHzjd8XKV",
           "_anchor": "menu1-0",
           "_protectedParams": [],
@@ -887,7 +897,7 @@
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
-        "order": 4
+        "order": 5
       },
       "components": [
         {
@@ -1542,7 +1552,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#69b9d0\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" condition=\"showItems\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons && showItems\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#3789a0\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/livin-inspired-thai-yoga-1851x1191.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">RestaurantM4</a>\n            </span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">HOME</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"healing-arts.html\" data-app-selector=\".nav-link,.dropdown-item\">HEALING ARTS</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"yoga-bali.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"yoga-teacher-training.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA TEACHER TRAINING</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">RETREATS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">CALENDAR</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"about-carlos-romero\" data-app-selector=\".nav-link,.dropdown-item\">ABOUT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"contact-us.html\" data-app-selector=\".nav-link,.dropdown-item\">CONNECT<br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\"></a></li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"http://www.instagram.com/livininspired\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"http://www.facebook.com/carlitosyoga\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"mailto:carlos@livininspired.com\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-mail socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-behance socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-googleplus socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-black-outline\" href=\"https://mobirise.com\">CONTACT US</a>\n            </div>\n      </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#69b9d0\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" condition=\"showItems\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons && showItems\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#3789a0\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/livin-inspired-thai-yoga-1851x1191.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">RestaurantM4</a>\n            </span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">HOME</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"healing-arts.html\" data-app-selector=\".nav-link,.dropdown-item\">HEALING ARTS</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"yoga-bali.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"yoga-teacher-training.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA TEACHER TRAINING</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"retreats.html\" data-app-selector=\".nav-link,.dropdown-item\">RETREATS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">CALENDAR</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"about-carlos-romero\" data-app-selector=\".nav-link,.dropdown-item\">ABOUT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"contact-us.html\" data-app-selector=\".nav-link,.dropdown-item\">CONNECT<br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\"></a></li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"http://www.instagram.com/livininspired\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"http://www.facebook.com/carlitosyoga\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"mailto:carlos@livininspired.com\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-mail socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-behance socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-googleplus socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-black-outline\" href=\"https://mobirise.com\">CONTACT US</a>\n            </div>\n      </div>\n    </nav>\n</section>",
           "_cid": "qDJXYkawrv",
           "_anchor": "menu1-u",
           "_protectedParams": [],
@@ -1634,7 +1644,7 @@
     "contact-us.html": {
       "settings": {
         "title": "Connect",
-        "order": 5
+        "order": 6
       },
       "components": [
         {
@@ -2027,7 +2037,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#69b9d0\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" condition=\"showItems\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons && showItems\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#3789a0\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/livin-inspired-thai-yoga-1851x1191.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">RestaurantM4</a>\n            </span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">HOME</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"healing-arts.html\" data-app-selector=\".nav-link,.dropdown-item\">HEALING ARTS</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"yoga-bali.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"yoga-teacher-training.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA TEACHER TRAINING</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">RETREATS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">CALENDAR</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"about-carlos-romero\" data-app-selector=\".nav-link,.dropdown-item\">ABOUT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"contact-us.html\" data-app-selector=\".nav-link,.dropdown-item\">CONNECT<br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\"></a></li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"http://www.instagram.com/livininspired\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"http://www.facebook.com/carlitosyoga\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"mailto:carlos@livininspired.com\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-mail socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-behance socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-googleplus socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-black-outline\" href=\"https://mobirise.com\">CONTACT US</a>\n            </div>\n      </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#69b9d0\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" condition=\"showItems\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons && showItems\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#3789a0\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/livin-inspired-thai-yoga-1851x1191.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">RestaurantM4</a>\n            </span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">HOME</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"healing-arts.html\" data-app-selector=\".nav-link,.dropdown-item\">HEALING ARTS</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"yoga-bali.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"yoga-teacher-training.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA TEACHER TRAINING</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"retreats.html\" data-app-selector=\".nav-link,.dropdown-item\">RETREATS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">CALENDAR</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"about-carlos-romero\" data-app-selector=\".nav-link,.dropdown-item\">ABOUT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"contact-us.html\" data-app-selector=\".nav-link,.dropdown-item\">CONNECT<br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\"></a></li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"http://www.instagram.com/livininspired\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"http://www.facebook.com/carlitosyoga\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"mailto:carlos@livininspired.com\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-mail socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-behance socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-googleplus socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-black-outline\" href=\"https://mobirise.com\">CONTACT US</a>\n            </div>\n      </div>\n    </nav>\n</section>",
           "_cid": "qDJXYkawrv",
           "_anchor": "menu1-13",
           "_protectedParams": [],
@@ -2532,7 +2542,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#69b9d0\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" condition=\"showItems\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons && showItems\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#3789a0\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/livin-inspired-thai-yoga-1851x1191.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">RestaurantM4</a>\n            </span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">HOME</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"healing-arts.html\" data-app-selector=\".nav-link,.dropdown-item\">HEALING ARTS</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"yoga-bali.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"yoga-teacher-training.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA TEACHER TRAINING</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">RETREATS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">CALENDAR</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"about-carlos-romero\" data-app-selector=\".nav-link,.dropdown-item\">ABOUT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"contact-us.html\" data-app-selector=\".nav-link,.dropdown-item\">CONNECT<br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\"></a></li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"http://www.instagram.com/livininspired\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"http://www.facebook.com/carlitosyoga\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"mailto:carlos@livininspired.com\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-mail socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-behance socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-googleplus socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-black-outline\" href=\"https://mobirise.com\">CONTACT US</a>\n            </div>\n      </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#69b9d0\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" condition=\"showItems\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons && showItems\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#3789a0\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/livin-inspired-thai-yoga-1851x1191.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">RestaurantM4</a>\n            </span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">HOME</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"healing-arts.html\" data-app-selector=\".nav-link,.dropdown-item\">HEALING ARTS</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"yoga-bali.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"yoga-teacher-training.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA TEACHER TRAINING</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"retreats.html\" data-app-selector=\".nav-link,.dropdown-item\">RETREATS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">CALENDAR</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"about-carlos-romero\" data-app-selector=\".nav-link,.dropdown-item\">ABOUT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"contact-us.html\" data-app-selector=\".nav-link,.dropdown-item\">CONNECT<br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\"></a></li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"http://www.instagram.com/livininspired\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"http://www.facebook.com/carlitosyoga\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"mailto:carlos@livininspired.com\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-mail socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-behance socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-googleplus socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-black-outline\" href=\"https://mobirise.com\">CONTACT US</a>\n            </div>\n      </div>\n    </nav>\n</section>",
           "_cid": "qDMXr6nvgz",
           "_anchor": "menu1-1b",
           "_protectedParams": [],
@@ -2659,7 +2669,7 @@
             }
           },
           "_name": "content2",
-          "_customHTML": "<section class=\"mbr-section content2\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"7.6\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"color\" title=\"Quotes Color\" name=\"quotesColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-10 col-sm-12 text-section\">\n                <div class=\"logo align-center\" mbr-class=\"{'pb-5': !showTitle,\n                                 'pb-3': showTitle}\" mbr-if=\"showLogo\">\n                    <a href=\"https://mobirise.com\">\n                        <img src=\"@PROJECT_PATH@/assets/images/livin-inspired-thai-yoga-1851x1191.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </div>\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center pb-4\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title, .logo\" mbr-if=\"showTitle\">The Art of Healing Touch<div>March 1st - 10th, 2018, The Yoga Barn, Ubud Bali</div></h3>\n                <p class=\"mbr-fonts-style mbr-text align-center\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-5\">** Immersion tickets are not refundable.&nbsp;In the event that you cannot attend you may transfer your pass to another student to this event only by letting us know at <a href=\"mailto:omlivininspired@gmail.com\">omlivininspired@gmail.com</a></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-section content2\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"2\">\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"7.6\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"color\" title=\"Quotes Color\" name=\"quotesColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-10 col-sm-12 text-section\">\n                <div class=\"logo align-center\" mbr-class=\"{'pb-5': !showTitle,\n                                 'pb-3': showTitle}\" mbr-if=\"showLogo\">\n                    <a href=\"https://mobirise.com\">\n                        <img src=\"@PROJECT_PATH@/assets/images/livin-inspired-thai-yoga-1851x1191.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </div>\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center pb-4\" mbr-theme-style=\"display-1\" data-app-selector=\".mbr-section-title, .logo\" mbr-if=\"showTitle\">The Art of Healing Touch<div>March 1st - 10th, 2018, The Yoga Barn, Ubud Bali</div></h3>\n                <p class=\"mbr-fonts-style mbr-text align-center\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-5\">** Immersion tickets are not refundable.&nbsp;In the event that you cannot attend you may transfer your pass to another student to this event only by letting us know at <a href=\"mailto:carlos@livininspired.com\">carlos@livininspired.com</a></p>\n            </div>\n        </div>\n    </div>\n</section>",
           "_anchor": "content2-1n",
           "_isUserblock": true,
           "_cid": "qDNc8TTF8S",
@@ -2700,7 +2710,7 @@
             }
           },
           "_name": "footer1",
-          "_customHTML": "<section group=\"Footers\" global mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Links\" name=\"showLinks\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"6\" step=\"1\" value=\"3\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"7.8\" condition=\"showLogo\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background7.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"links-block col-sm-12 col-md-10 align-center pb-3\" mbr-if=\"showLinks\">\n                <ul class=\"list-inline\">\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\"><a href=\"about-carlos-romero\">ABOUT</a></li><li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\"><a href=\"healing-arts.html\">HEALING ARTS</a></li><li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\"><a href=\"yoga-bali.html\">TEACHING LOCATION</a></li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\"><a href=\"yoga-teacher-training.html\">YOGA TEACHER TRAINING</a></li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">CALENDAR</li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\"><a href=\"about-carlos-romero\">C</a>ONNECT</li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">&nbsp;</li>\n                </ul>\n            </div>\n            <div class=\"icons-block col-sm-12 col-md-10 align-center\" mbr-if=\"showIcons\">\n                <ul class=\"list-inline\">\n                    <li class=\"list-inline-item\">\n                        <a class=\"icon-transition\" href=\"http://www.facebook.com/carlitosyoga\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"http://www.instagram.com/livininspired\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-mail socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-rss socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 5\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-googleplus socicon\"></span>\n                        </a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"logo-section col-sm-12 col-lg-4 align-center\" mbr-if=\"showLogo\">\n                <a href=\"#\"><img src=\"@PROJECT_PATH@/assets/images/livin-inspired-thai-yoga-397x256.jpg\" height=\"128\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title></a>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_customHTML": "<section group=\"Footers\" global mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Links\" name=\"showLinks\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"6\" step=\"1\" value=\"3\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"7.8\" condition=\"showLogo\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background7.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"links-block col-sm-12 col-md-10 align-center pb-3\" mbr-if=\"showLinks\">\n                <ul class=\"list-inline\">\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\"><a href=\"about-carlos-romero\">ABOUT</a></li><li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\"><a href=\"healing-arts.html\">HEALING ARTS</a></li><li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\"><a href=\"yoga-bali.html\">TEACHING LOCATION</a></li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\"><a href=\"yoga-teacher-training.html\">YOGA TEACHER TRAINING</a></li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">CALENDAR</li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\"><a href=\"about-carlos-romero\">C</a>ONNECT</li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">&nbsp;</li>\n                </ul>\n            </div>\n            <div class=\"icons-block col-sm-12 col-md-10 align-center\" mbr-if=\"showIcons\">\n                <ul class=\"list-inline\">\n                    <li class=\"list-inline-item\">\n                        <a class=\"icon-transition\" href=\"http://www.facebook.com/carlitosyoga\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"http://www.instagram.com/livininspired\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"mailto:carlos@livininspired.com\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-mail socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-rss socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 5\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-googleplus socicon\"></span>\n                        </a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"logo-section col-sm-12 col-lg-4 align-center\" mbr-if=\"showLogo\">\n                <a href=\"#\"><img src=\"@PROJECT_PATH@/assets/images/livin-inspired-thai-yoga-397x256.jpg\" height=\"128\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title></a>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "qDMXr7idnC",
           "_anchor": "footer1-1d",
           "_protectedParams": [],
@@ -3592,7 +3602,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#69b9d0\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" condition=\"showItems\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons && showItems\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#3789a0\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/livin-inspired-thai-yoga-1851x1191.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">RestaurantM4</a>\n            </span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">HOME</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"healing-arts.html\" data-app-selector=\".nav-link,.dropdown-item\">HEALING ARTS</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"yoga-bali.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"yoga-teacher-training.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA TEACHER TRAINING</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">RETREATS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">CALENDAR</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"about-carlos-romero\" data-app-selector=\".nav-link,.dropdown-item\">ABOUT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"contact-us.html\" data-app-selector=\".nav-link,.dropdown-item\">CONNECT<br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\"></a></li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"http://www.instagram.com/livininspired\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"http://www.facebook.com/carlitosyoga\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"mailto:carlos@livininspired.com\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-mail socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-behance socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-googleplus socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-black-outline\" href=\"https://mobirise.com\">CONTACT US</a>\n            </div>\n      </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#69b9d0\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" condition=\"showItems\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons && showItems\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#3789a0\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/livin-inspired-thai-yoga-1851x1191.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">RestaurantM4</a>\n            </span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">HOME</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"healing-arts.html\" data-app-selector=\".nav-link,.dropdown-item\">HEALING ARTS</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"yoga-bali.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"yoga-teacher-training.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA TEACHER TRAINING</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"retreats.html\" data-app-selector=\".nav-link,.dropdown-item\">RETREATS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">CALENDAR</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"about-carlos-romero\" data-app-selector=\".nav-link,.dropdown-item\">ABOUT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"contact-us.html\" data-app-selector=\".nav-link,.dropdown-item\">CONNECT<br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\"></a></li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"http://www.instagram.com/livininspired\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"http://www.facebook.com/carlitosyoga\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"mailto:carlos@livininspired.com\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-mail socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-behance socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-googleplus socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-black-outline\" href=\"https://mobirise.com\">CONTACT US</a>\n            </div>\n      </div>\n    </nav>\n</section>",
           "_cid": "qDMXtI8ha7",
           "_anchor": "menu1-1h",
           "_protectedParams": [],
@@ -4474,7 +4484,7 @@
             }
           },
           "_name": "menu1",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#69b9d0\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" condition=\"showItems\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons && showItems\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#3789a0\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/livin-inspired-thai-yoga-1851x1191.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">RestaurantM4</a>\n            </span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">HOME</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"healing-arts.html\" data-app-selector=\".nav-link,.dropdown-item\">HEALING ARTS</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"yoga-bali.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"yoga-teacher-training.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA TEACHER TRAINING</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">RETREATS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">CALENDAR</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"about-carlos-romero\" data-app-selector=\".nav-link,.dropdown-item\">ABOUT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"contact-us.html\" data-app-selector=\".nav-link,.dropdown-item\">CONNECT<br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\"></a></li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"http://www.instagram.com/livininspired\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"http://www.facebook.com/carlitosyoga\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"mailto:carlos@livininspired.com\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-mail socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-behance socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-googleplus socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-black-outline\" href=\"https://mobirise.com\">CONTACT US</a>\n            </div>\n      </div>\n    </nav>\n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#69b9d0\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" condition=\"showItems\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons && showItems\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#3789a0\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/livin-inspired-thai-yoga-1851x1191.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">RestaurantM4</a>\n            </span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">HOME</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"healing-arts.html\" data-app-selector=\".nav-link,.dropdown-item\">HEALING ARTS</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"yoga-bali.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"yoga-teacher-training.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA TEACHER TRAINING</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"retreats.html\" data-app-selector=\".nav-link,.dropdown-item\">RETREATS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">CALENDAR</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"about-carlos-romero\" data-app-selector=\".nav-link,.dropdown-item\">ABOUT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"contact-us.html\" data-app-selector=\".nav-link,.dropdown-item\">CONNECT<br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\"></a></li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"http://www.instagram.com/livininspired\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"http://www.facebook.com/carlitosyoga\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"mailto:carlos@livininspired.com\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-mail socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-behance socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-googleplus socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-black-outline\" href=\"https://mobirise.com\">CONTACT US</a>\n            </div>\n      </div>\n    </nav>\n</section>",
           "_cid": "qEn7Vxffyb",
           "_anchor": "menu1-1y",
           "_protectedParams": [],
@@ -4560,6 +4570,778 @@
           "_global": true,
           "_once": false,
           "_params": {}
+        }
+      ]
+    },
+    "retreats.html": {
+      "settings": {
+        "title": "Retreats",
+        "meta_descr": "",
+        "header_custom": "",
+        "footer_custom": "",
+        "html_before": "",
+        "order": 4
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bgColor",
+            ".mbr-text": {
+              "position": "relative"
+            },
+            ".mbr-text:before": {
+              "color": "@quotesColor",
+              "content": "\"\\201C\"",
+              "font-size": "3em",
+              "line-height": "0.1em",
+              "margin-right": "0.2em",
+              "vertical-align": "-0.4em",
+              "position": "absolute",
+              "top": "10px",
+              "left": "-2rem"
+            },
+            ".mbr-text:after": {
+              "color": "@quotesColor",
+              "content": "\"\\201D\"",
+              "font-size": "3em",
+              "line-height": "0.1em",
+              "vertical-align": "-0.45em",
+              "position": "absolute",
+              "bottom": "10px",
+              "right": "-2rem"
+            },
+            "@media (max-width: 767px)": {
+              ".mbr-text:after, .mbr-text:before": {
+                "display": "none"
+              }
+            }
+          },
+          "_name": "content2",
+          "_customHTML": "<section class=\"mbr-section content2\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"7.6\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"color\" title=\"Quotes Color\" name=\"quotesColor\" value=\"#ffffff\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-md-10 col-sm-12 text-section\">\n                <div class=\"logo align-center\" mbr-class=\"{'pb-5': !showTitle,\n                                 'pb-3': showTitle}\" mbr-if=\"showLogo\">\n                    <a href=\"https://mobirise.com\">\n                        <img src=\"@PROJECT_PATH@/assets/images/livin-inspired-thai-yoga-1851x1191.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                    </a>\n                </div>\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center pb-4\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-title, .logo\" mbr-if=\"showTitle\">Come and immerse yourself in amongst the nature, as we offer a dynamic and eclectic combination of Hatha Vinyasa, Acro, Yin, Dance, Sound Healing, Outdoor Adventures &amp; Healing Arts.&nbsp;</h3>\n                <p class=\"mbr-fonts-style mbr-text align-center\" data-app-selector=\".mbr-text\" mbr-theme-style=\"display-7\">Embody these sacred practices, learn new skills, dive deeper into your physical and spiritual bodies, expand your self awareness, connect, and rise up and shine with Livin’ Inspired Retreats! Held in beautiful and exotic locations all over the world, including Bali, South America &amp; Europe.<br></p>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qEF8NQQDXE",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content2-2i"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".mbr-slider .carousel-control": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-slider .carousel-control-prev": {
+              "left": "0",
+              "margin-left": "2.5rem"
+            },
+            ".mbr-slider .carousel-control-next": {
+              "right": "0",
+              "margin-right": "2.5rem"
+            },
+            ".mbr-slider .modal-body .close": {
+              "background": "#1b1b1b"
+            },
+            ".mbr-gallery-item > div::before": {
+              "content": "''",
+              "position": "absolute",
+              "left": "0",
+              "top": "0",
+              "width": "100%",
+              "height": "100%",
+              "background-color": "@overlayColor1",
+              "& when (@gradientOverlay)": {
+                "background": "linear-gradient(180deg, @overlayColor1, @overlayColor2)"
+              },
+              "opacity": "0",
+              "-webkit-transition": "0.2s opacity ease-in-out",
+              "transition": "0.2s opacity ease-in-out"
+            },
+            ".icon-focus": {
+              "display": "none"
+            },
+            ".mbr-gallery-title": {
+              "transition": "all 0.5s ease",
+              "position": "absolute",
+              "text-align": "left",
+              "display": "none",
+              "width": "100%",
+              "top": "0",
+              "right": "0",
+              "padding": "1rem",
+              "color": "#000000",
+              "font-weight": "bold",
+              "background": "transparent",
+              "-webkit-transition": "all 0.5s ease",
+              "-moz-transition": "all 0.5s ease",
+              "-o-transition": "all 0.5s ease",
+              "-ms-transition": "all 0.5s ease"
+            },
+            "ul": {
+              "font-size": "0"
+            },
+            ".mbr-gallery-filter ul li .btn": {
+              "border": "none",
+              "background-color": "transparent",
+              "color": "@tagsColor !important",
+              "padding": "0.5rem 1rem 0.6rem",
+              "border-radius": "0",
+              "margin": "0!important",
+              "transition": "padding, border 0s, transform .2s"
+            },
+            ".mbr-gallery-filter ul li .btn.active": {
+              "padding": "0.5rem 1rem 0.5rem",
+              "border-radius": "0 !important",
+              "position": "relative"
+            },
+            ".mbr-gallery-filter ul li .btn.active:after": {
+              "content": "''",
+              "position": "absolute",
+              "bottom": "0",
+              "left": "0",
+              "width": "100%",
+              "height": "3px",
+              "background": "linear-gradient(90deg, @primaryColor, @secondaryColor)"
+            },
+            ".mbr-gallery-filter ul li": {
+              "padding": "0"
+            },
+            ".mbr-gallery-item > div:hover": {
+              ".mbr-gallery-title": {
+                "padding-bottom": "1.5rem",
+                "display": "block"
+              },
+              "&:before": {
+                "opacity": "@overlayOpacityItem !important"
+              }
+            },
+            ".btn": {
+              "background": "none",
+              "border-radius": "0 !important",
+              "&:hover": {
+                "background": "transparent !important",
+                "&:before": {
+                  "background": "transparent !important"
+                }
+              },
+              "&:before": {
+                "background-color": "transparent !important"
+              },
+              "&:focus": {
+                "box-shadow": "none"
+              }
+            },
+            ".mbr-section-title": {
+              "position": "relative",
+              "z-index": "1"
+            },
+            ".mbr-gallery-item > div > span": {
+              "text-align": "center",
+              "color": "#3789a0"
+            }
+          },
+          "_name": "gallery1",
+          "_customHTML": "<section class=\"gallery1 mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"0\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\" checked>\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\">\n        <input type=\"color\" title=\"Overlay Color 1\" name=\"overlayColor1\" value=\"#ffffff\">\n        <input type=\"checkbox\" title=\"Gradient Overlay\" name=\"gradientOverlay\" checked>\n        <input type=\"color\" title=\"Overlay Color 2\" name=\"overlayColor2\" value=\"#f9e2af\" condition=\"gradientOverlay\">\n        <input type=\"range\" title=\"Overlay Opacity\" name=\"overlayOpacityItem\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.8\" inline>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#232323\">\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/dscf3067-2000x1333.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#85bfd0\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"row justify-content-center\" mbr-if=\"showTitle\">\n            <div mbr-class=\"{'col-sm-12': !fullWidth,\n                             'col-sm-10': fullWidth}\">\n                <h2 class=\"align-center mbr-fonts-style mbr-section-title\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title\">GALLERY<br>click on image to view slideshow</h2>\n            </div>\n        </div>\n        <div class=\"col-left-gallery\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"0\"></div>\n    </div>\n</section>",
+          "_cid": "qEF8NR1lx1",
+          "_protectedParams": [
+            "text_all",
+            "gallery__filtersTextStyle",
+            "gallery__filtersBtnStyle",
+            "gallery"
+          ],
+          "_global": false,
+          "_once": false,
+          "_params": {
+            "text_all": "All",
+            "gallery__filtersTextStyle": "display-4",
+            "gallery__filtersBtnStyle": "btn-primary-outline",
+            "gallery": [
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/livin-inspired-bali-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/livin-inspired-bali-2000x1333-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-2",
+                "caption": "Acroyoga",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/yoga-in-bali-3674-1200x800.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/yoga-in-bali-3674-1200x800-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Creative",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/yoga-in-bali-7657-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/yoga-in-bali-7657-2000x1333-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dscf2753-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dscf2753-2000x1333-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/1704-togat-nusa-2933-1300x867.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/1704-togat-nusa-2933-1300x867-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Awesome",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/gabby-carlos-ishine-photography-9-2000x1332.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/gabby-carlos-ishine-photography-9-2000x1332-800x532.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Responsive",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/dscf3452-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dscf3452-2000x1333-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": false
+              },
+              {
+                "tags": "Animated",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/img-4101-1600x1066.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-4101-1600x1066-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Type caption here",
+                "active": true
+              }
+            ]
+          },
+          "_anchor": "gallery1-2j"
+        },
+        {
+          "_styles": {
+            ".nav-item:focus, .nav-link:focus": {
+              "outline": "none"
+            },
+            ".dropdown .dropdown-menu .dropdown-item": {
+              "width": "auto",
+              "-webkit-transition": "all 0.25s ease-in-out",
+              "-moz-transition": "all 0.25s ease-in-out",
+              "transition": "all 0.25s ease-in-out",
+              "&::after": {
+                "right": "0.5rem"
+              },
+              ".mbr-iconfont": {
+                "margin-left": "-1.8rem",
+                "padding-right": "1rem",
+                "font-size": "inherit",
+                "&:before": {
+                  "display": "inline-block",
+                  "transform": "scale(1, 1)",
+                  "-webkit-transition": "all 0.25s ease-in-out",
+                  "-moz-transition": "all 0.25s ease-in-out",
+                  "transition": "all 0.25s ease-in-out"
+                }
+              }
+            },
+            ".collapsed": {
+              ".dropdown .dropdown-menu .dropdown-item": {
+                "padding": "0.235em 1.5em !important",
+                "transition": "none",
+                "margin": "0 !important"
+              }
+            },
+            ".navbar": {
+              "min-height": "77px",
+              "transition": "all .3s",
+              "background": "@menuBgColor",
+              "& when (@transparent)": {
+                "background": "none"
+              },
+              "&.opened": {
+                "transition": "all .3s",
+                "background": "@menuBgColor !important"
+              },
+              ".dropdown-item": {
+                "padding": ".235rem 1.5rem"
+              },
+              ".navbar-collapse": {
+                "justify-content": "flex-end",
+                "z-index": "1",
+                "& when not (@showItems)": {
+                  "display": "none !important"
+                }
+              },
+              "&.collapsed": {
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  "background": "transparent !important",
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": ".25rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem",
+                  "text-align": "center"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "@media (max-width: 991px)": {
+                "&.opened": {
+                  ".dropdown-menu": {
+                    "top": "0"
+                  }
+                },
+                ".dropdown-menu": {
+                  "background": "transparent !important",
+                  ".dropdown-submenu": {
+                    "left": "0 !important"
+                  },
+                  ".dropdown-item:after": {
+                    "right": "auto"
+                  },
+                  ".dropdown-toggle[data-toggle=\"dropdown-submenu\"]:after": {
+                    "margin-left": ".25rem",
+                    "border-top": "0.35em solid",
+                    "border-right": "0.35em solid transparent",
+                    "border-left": "0.35em solid transparent",
+                    "border-bottom": "0",
+                    "top": "55%"
+                  }
+                },
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3.8rem !important"
+                  }
+                },
+                "ul.navbar-nav": {
+                  "li": {
+                    "margin": "auto"
+                  }
+                },
+                ".dropdown-menu .dropdown-item": {
+                  "padding": ".25rem 1.5rem !important",
+                  "text-align": "center"
+                },
+                ".navbar-brand": {
+                  "flex-shrink": "initial",
+                  "flex-basis": "auto",
+                  "word-break": "break-word"
+                },
+                ".navbar-toggler": {
+                  "flex-basis": "auto"
+                },
+                ".icons-menu": {
+                  "padding-left": "0",
+                  "padding-top": ".5rem",
+                  "padding-bottom": ".5rem"
+                }
+              },
+              "&.navbar-short": {
+                "background": "@menuBgColor !important",
+                "min-height": "60px",
+                ".navbar-logo": {
+                  "img": {
+                    "height": "3rem !important"
+                  }
+                },
+                ".navbar-brand": {
+                  "padding": "0"
+                }
+              }
+            },
+            ".navbar-brand": {
+              "flex-shrink": "0",
+              "align-items": "center",
+              "margin-right": "0",
+              "padding": "0",
+              "transition": "all .3s",
+              "word-break": "break-word",
+              "z-index": "1",
+              ".navbar-caption": {
+                "line-height": "inherit !important"
+              },
+              ".navbar-logo a": {
+                "outline": "none"
+              }
+            },
+            ".dropdown-item.active,.dropdown-item:active": {
+              "background-color": "transparent"
+            },
+            ".navbar-expand-lg .navbar-nav .nav-link": {
+              "padding": "0"
+            },
+            ".nav-dropdown .link.dropdown-toggle": {
+              "margin-right": "1.667em",
+              "&[aria-expanded=\"true\"]": {
+                "margin-right": "0",
+                "padding": "0.667em 1.667em"
+              }
+            },
+            ".navbar.navbar-expand-lg .dropdown": {
+              ".dropdown-menu": {
+                "background": "@menuBgColor",
+                ".dropdown-submenu": {
+                  "margin": "0",
+                  "left": "100%"
+                }
+              }
+            },
+            ".navbar .dropdown.open > .dropdown-menu": {
+              "display": "block"
+            },
+            "ul.navbar-nav": {
+              "flex-wrap": "wrap"
+            },
+            ".navbar-buttons": {
+              "text-align": "center"
+            },
+            "button.navbar-toggler": {
+              "outline": "none",
+              "width": "31px",
+              "height": "20px",
+              "cursor": "pointer",
+              "transition": "all .2s",
+              "position": "relative",
+              "align-self": "center",
+              ".hamburger span": {
+                "position": "absolute",
+                "right": "0",
+                "width": "30px",
+                "height": "2px",
+                "border-right": "5px",
+                "background-color": "@hamburgerColor",
+                "&:nth-child(1)": {
+                  "top": "0",
+                  "transition": "all .2s"
+                },
+                "&:nth-child(2)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(3)": {
+                  "top": "8px",
+                  "transition": "all .15s"
+                },
+                "&:nth-child(4)": {
+                  "top": "16px",
+                  "transition": "all .2s"
+                }
+              }
+            },
+            "nav.opened .hamburger span": {
+              "&:nth-child(1)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              },
+              "&:nth-child(2)": {
+                "-webkit-transform": "rotate(45deg)",
+                "transform": "rotate(45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(3)": {
+                "-webkit-transform": "rotate(-45deg)",
+                "transform": "rotate(-45deg)",
+                "transition": "all .25s"
+              },
+              "&:nth-child(4)": {
+                "top": "8px",
+                "width": "0",
+                "opacity": "0",
+                "right": "50%",
+                "transition": "all .2s"
+              }
+            },
+            ".navbar-dropdown": {
+              "padding": ".5rem 1rem",
+              "& when (@sticky)": {
+                "position": "fixed"
+              }
+            },
+            "a.nav-link": {
+              "justify-content": "center",
+              "display": "flex",
+              "align-items": "center"
+            },
+            ".mbr-iconfont": {
+              "font-size": "1.5rem",
+              "padding-right": ".5rem"
+            },
+            ".icons-menu": {
+              "flex-wrap": "wrap",
+              "display": "flex",
+              "justify-content": "center",
+              "padding-left": "1rem",
+              "text-align": "center",
+              "span": {
+                "font-size": "20px",
+                "color": "#232323"
+              }
+            },
+            ".nav-link:hover, .dropdown-item:hover, .icons-menu .mbr-iconfont:hover": {
+              "color": "@itemsHoverColor !important"
+            },
+            "@media screen and (-ms-high-contrast: active), (-ms-high-contrast: none)": {
+              ".navbar": {
+                "height": "77px",
+                "&.opened": {
+                  "height": "auto"
+                }
+              }
+            }
+          },
+          "_name": "menu1",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\">\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"color\" title=\"Items Hover Color\" name=\"itemsHoverColor\" value=\"#69b9d0\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" condition=\"showItems\">\n        <select title=\"Icons\" name=\"iconsAmount\" condition=\"showIcons && showItems\">\n            <option value=\"1\">1</option>\n            <option value=\"2\">2</option>\n            <option value=\"3\" selected>3</option>\n            <option value=\"4\">4</option>\n            <option value=\"5\">5</option>\n            <option value=\"6\">6</option>\n        </select>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" condition=\"showItems\">\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\">\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\" checked>\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#3789a0\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"index.html\">\n                    <img src=\"@PROJECT_PATH@/assets/images/livin-inspired-thai-yoga-1851x1191.jpg\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title>\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-5\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\">\n                <a class=\"navbar-caption text-black\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">RestaurantM4</a>\n            </span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">HOME</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"healing-arts.html\" data-app-selector=\".nav-link,.dropdown-item\">HEALING ARTS</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-danger\" href=\"yoga-bali.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"yoga-teacher-training.html\" data-app-selector=\".nav-link,.dropdown-item\">YOGA TEACHER TRAINING</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"retreats.html\" data-app-selector=\".nav-link,.dropdown-item\">RETREATS</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"index.html\" data-app-selector=\".nav-link,.dropdown-item\">CALENDAR</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"about-carlos-romero\" data-app-selector=\".nav-link,.dropdown-item\">ABOUT</a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"contact-us.html\" data-app-selector=\".nav-link,.dropdown-item\">CONNECT<br></a></li><li class=\"nav-item\"><a class=\"nav-link link text-danger\" href=\"https://mobirise.com\" data-app-selector=\".nav-link,.dropdown-item\"></a></li></ul>\n            <div class=\"icons-menu\" mbr-if=\"showIcons\">\n              <a href=\"http://www.instagram.com/livininspired\" target=\"_blank\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-instagram socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"http://www.facebook.com/carlitosyoga\" target=\"_blank\" mbr-if=\"iconsAmount > 1\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-facebook socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"mailto:carlos@livininspired.com\" mbr-if=\"iconsAmount > 2\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-mail socicon\" style=\"color: rgb(55, 137, 160);\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 3\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-behance socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 4\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-googleplus socicon\"></span>\n              </a>\n              <a href=\"https://mobirise.com\" target=\"_blank\" mbr-if=\"iconsAmount > 5\">\n                <span mbr-icon class=\"p-2 mbr-iconfont socicon-linkedin socicon\"></span>\n              </a>\n            </div>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\">\n                <a class=\"btn btn-sm btn-black-outline\" href=\"https://mobirise.com\">CONTACT US</a>\n            </div>\n      </div>\n    </nav>\n</section>",
+          "_cid": "qEF8NRDOXb",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": "menu",
+          "_params": {},
+          "_anchor": "menu1-2k"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "background-color": "@bg-value",
+            "transition": "background-color 0.3s ease-in-out",
+            "&:hover": {
+              "background-color": "@hoverColor"
+            },
+            ".mbr-section-title": {
+              "margin": "0"
+            },
+            ".card-wrapper": {
+              "z-index": "3"
+            },
+            ".full-link": {
+              "position": "absolute !important",
+              "top": "0",
+              "left": "0",
+              "width": "100%",
+              "height": "100%",
+              "font-size": "0",
+              "z-index": "2"
+            },
+            ".popup-btn": {
+              "&.card-wrapper": {
+                "z-index": "1 !important"
+              }
+            }
+          },
+          "_name": "content3",
+          "_customHTML": "<section group=\"Content\" class=\"content3 popup-btn-cards\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"mbr-popup-btns\">\n\n    <mbr-parameters>\n    <!--Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"text\" title=\"Link\" name=\"linkValue\" value>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"15\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"15\" step=\"1\" value=\"2\">\n        <input type=\"range\" inline title=\"Min Height\" name=\"blockHeight\" min=\"1\" max=\"25\" step=\"1\" value=\"3\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#3789a0\" selected>\n        </fieldset>\n\n        <input type=\"color\" title=\"Hover Color\" name=\"hoverColor\" value=\"#f9e2af\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <a class=\"full-link\" href=\"{{linkValue}}\"></a>\n    <div class=\"container card-wrapper\">\n        <div class=\"row justify-content-center align-items-center\" mbr-style=\"{'height':blockHeight + 'vw'}\">\n             <div class=\"col-sm-12 col-md-10 text-block align-center\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-section-title mbr-fonts-style mbr-light mbr-white mbr-bold\" mbr-theme-style=\"display-2\" data-app-selector=\".mbr-section-title, .text-block\">&nbsp;View Full List of Upcoming Events</h2>                 \n             </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qEF8NS5xJv",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "content3-2l"
+        },
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            ".icons-block .mbr-iconfont": {
+              "font-size": "1.5rem",
+              "color": "@iconsColor",
+              "opacity": ".5",
+              "&:hover": {
+                "opacity": "1"
+              }
+            },
+            ".links-block ul li": {
+              "margin": "0 1rem"
+            },
+            ".icons-block ul li": {
+              "margin": "0 .5rem"
+            },
+            ".links-block ul, .icons-block ul": {
+              "margin-bottom": "1.5rem"
+            },
+            ".links-block, .icons-block": {
+              "color": "#3789a0"
+            }
+          },
+          "_name": "footer1",
+          "_customHTML": "<section group=\"Footers\" global mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"1\">\n        <input type=\"checkbox\" title=\"Show Links\" name=\"showLinks\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"range\" inline title=\"Icons Count\" name=\"iconsCount\" min=\"1\" max=\"6\" step=\"1\" value=\"3\" condition=\"showIcons\">\n        <input type=\"color\" title=\"Icons Color\" name=\"iconsColor\" value=\"#000000\" condition=\"showIcons\">\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\" checked>\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"7.8\" condition=\"showLogo\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background7.jpg\">\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n        </fieldset>\n\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#efefef\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"links-block col-sm-12 col-md-10 align-center pb-3\" mbr-if=\"showLinks\">\n                <ul class=\"list-inline\">\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\"><a href=\"about-carlos-romero\">ABOUT</a></li><li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\"><a href=\"healing-arts.html\">HEALING ARTS</a></li><li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\"><a href=\"yoga-bali.html\">TEACHING LOCATION</a></li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\"><a href=\"yoga-teacher-training.html\">YOGA TEACHER TRAINING</a></li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">CALENDAR</li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\"><a href=\"about-carlos-romero\">C</a>ONNECT</li>\n                    <li class=\"list-inline-item mbr-fonts-style\" mbr-text mbr-theme-style=\"display-4\" data-app-selector=\".links-block, .icons-block\">&nbsp;</li>\n                </ul>\n            </div>\n            <div class=\"icons-block col-sm-12 col-md-10 align-center\" mbr-if=\"showIcons\">\n                <ul class=\"list-inline\">\n                    <li class=\"list-inline-item\">\n                        <a class=\"icon-transition\" href=\"http://www.facebook.com/carlitosyoga\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-facebook socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 1\">\n                        <a class=\"icon-transition\" href=\"http://www.instagram.com/livininspired\" target=\"_blank\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-instagram socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 2\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-mail socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 3\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-youtube socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 4\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-rss socicon\"></span>\n                        </a>\n                    </li>\n                    <li class=\"list-inline-item\" mbr-if=\"iconsCount > 5\">\n                        <a class=\"icon-transition\" href=\"#\">\n                            <span mbr-icon class=\"mbr-iconfont socicon-googleplus socicon\"></span>\n                        </a>\n                    </li>\n                </ul>\n            </div>\n            <div class=\"logo-section col-sm-12 col-lg-4 align-center\" mbr-if=\"showLogo\">\n                <a href=\"#\"><img src=\"@PROJECT_PATH@/assets/images/livin-inspired-thai-yoga-397x256.jpg\" height=\"128\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\" title></a>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qEF8NSkG6u",
+          "_protectedParams": [],
+          "_global": true,
+          "_once": false,
+          "_params": {},
+          "_anchor": "footer1-2m"
+        },
+        {
+          "_styles": {
+            "& when not (@fullScreen)": {
+              "padding-top": "(@paddingTop * 20px)",
+              "padding-bottom": "(@paddingBottom * 15px)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".btn-wrapper": {
+              "width": "100%"
+            },
+            ".mbr-media.show-modal": {
+              "cursor": "pointer",
+              "display": "block",
+              "height": "4em",
+              "width": "4em",
+              "margin": "0 auto"
+            },
+            ".mbr-text": {
+              "display": "inline-block",
+              "padding": "0 1rem"
+            },
+            ".subtitle-wrapper": {
+              "display": "flex",
+              "align-items": "center",
+              "justify-content": "center",
+              "hr": {
+                "border": "1px solid",
+                "flex-basis": "10%",
+                "flex-shrink": "0"
+              }
+            },
+            ".line-left,.line-right": {
+              "display": "inline-block",
+              "width": "80px",
+              "height": "3px",
+              "background-color": "#fff"
+            },
+            ".modalWindow": {
+              "position": "fixed",
+              "z-index": "5000",
+              "left": "0",
+              "top": "0",
+              "background-color": "rgba(61, 61, 61, 0.65)",
+              "width": "100%",
+              "height": "100%",
+              ".modalWindow-container": {
+                "display": "table-cell",
+                "vertical-align": "middle"
+              },
+              ".modalWindow-video": {
+                "height": "calc(80vw / 1.778)",
+                "width": "80vw",
+                "margin": "0 auto"
+              }
+            },
+            "a.close": {
+              "position": "absolute",
+              "right": "4vw",
+              "top": "4vh",
+              "color": "#ffffff",
+              "z-index": "5000000",
+              "font-size": "37px",
+              "background": "#000",
+              "padding": "20px",
+              "border-radius": "50%",
+              "&:hover": {
+                "color": "#ffffff"
+              }
+            },
+            "@media (max-width: 767px)": {
+              ".subtitle-wrapper": {
+                "hr": {
+                  "display": "none"
+                }
+              }
+            }
+          },
+          "_name": "header3",
+          "_customHTML": "<section class=\"header3\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" plugins=\"PlayerVimeo\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Video PopUp\" name=\"showVideoPopUp\" checked>\n        <input type=\"text\" title=\"Modal Video\" name=\"modalVideo\" value=\"https://youtu.be/jURP1DnNtoo\" condition=\"showVideoPopUp\">\n        <input type=\"color\" title=\"Button Color\" name=\"btnColor\" value=\"#f9e2af\">\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" value=\"../_images/background7.jpg\" title=\"Background Image\" parallax>\n            <input type=\"color\" value=\"#444444\" title=\"Background Color\">\n            <input type=\"video\" value=\"https://youtu.be/jURP1DnNtoo\" title=\"Background Video\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" checked condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#9b9289\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container align-center\">\n        <div class=\"row justify-content-center\">\n            <div class=\"media-container-column mbr-white col-md-10 offset-md-1\">\n                <h1 class=\"mbr-section-title align-center mbr-fonts-style mbr-bold\" mbr-theme-style=\"display-1\" mbr-if=\"showTitle\">SUPER SOUL YOGA RETREAT</h1>\n                <div class=\"subtitle-wrapper\" mbr-if=\"showText\">\n                    <hr>\n                    <h2 class=\"mbr-text align-center mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".subtitle-wrapper,.mbr-text\">OBOYAN 2017<br>click below to play video</h2>\n                    <hr>\n                </div>\n                <div class=\"btn-wrapper mt-3\">\n                    <div class=\"mbr-media show-modal align-center \" mbr-if=\"showVideoPopUp\" data-modal=\".modalWindow\">\n                         <svg xmlns=\"http://www.w3.org/2000/svg\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" version=\"1.1\" x=\"0px\" y=\"0px\" viewBox=\"0 0 512 512\" fill=\"{{btnColor}}\">\n                            <path d=\"M256,0C114.617,0,0,114.615,0,256s114.617,256,256,256s256-114.615,256-256S397.383,0,256,0z M344.48,269.57l-128,80  c-2.59,1.617-5.535,2.43-8.48,2.43c-2.668,0-5.34-0.664-7.758-2.008C195.156,347.172,192,341.82,192,336V176  c0-5.82,3.156-11.172,8.242-13.992c5.086-2.836,11.305-2.664,16.238,0.422l128,80c4.676,2.93,7.52,8.055,7.52,13.57  S349.156,266.641,344.48,269.57z\"></path>\n                        </svg>\n                    </div>\n                </div>\n            </div>\n        </div>\n    </div>\n    <div mbr-if=\"showVideoPopUp\">\n        <div class=\"modalWindow\" style=\"display: none;\">\n            <div class=\"modalWindow-container\">\n                <div class=\"modalWindow-video-container\">\n                    <div class=\"modalWindow-video\">\n                        <iframe width=\"100%\" height=\"100%\" data-src=\"{{modalVideo}}\" frameborder=\"0\" allowfullscreen=\"1\"></iframe>\n                    </div>\n                    <a class=\"close\" role=\"button\" data-dismiss=\"modal\">\n                        <span aria-hidden=\"true\" class=\"mbri-close mbr-iconfont closeModal\"></span>\n                        <span class=\"sr-only\">Close</span>\n                    </a>\n                </div>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "qEF9jdqccQ",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "header3-2n"
         }
       ]
     }
