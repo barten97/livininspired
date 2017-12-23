@@ -2814,7 +2814,7 @@ body {
 .cid-qEF2wzvO15 {
   padding-top: 120px;
   padding-bottom: 120px;
-  background-image: url("../../../assets/images/dscf2776-2000x1333.jpg");
+  background-image: url("../../../assets/images/dscf3246-2000x1333.jpg");
 }
 .cid-qEF2wzvO15 .text-content .btn-bgr {
   z-index: 0;
@@ -2824,7 +2824,7 @@ body {
 }
 .cid-qEF2wzvO15 .text-content {
   padding: 2rem 0rem;
-  background-color: #eedbb2;
+  background-color: #efefef;
 }
 .cid-qEF2wzvO15 .mbr-section-btn {
   margin-left: -0.8rem;
@@ -2852,7 +2852,7 @@ body {
 }
 .cid-qEmQiwKAnx {
   padding-top: 90px;
-  padding-bottom: 30px;
+  padding-bottom: 105px;
   background-color: #85bfd0;
 }
 .cid-qEmQiwKAnx .text-box {
@@ -2910,33 +2910,6 @@ body {
   .cid-qEmQiwKAnx .text-box {
     writing-mode: bt-rl;
   }
-}
-.cid-qDMXtIDjfv {
-  padding-top: 30px;
-  padding-bottom: 30px;
-  background-color: #125568;
-  transition: background-color 0.3s ease-in-out;
-}
-.cid-qDMXtIDjfv:hover {
-  background-color: #85bfd0;
-}
-.cid-qDMXtIDjfv .mbr-section-title {
-  margin: 0;
-}
-.cid-qDMXtIDjfv .card-wrapper {
-  z-index: 3;
-}
-.cid-qDMXtIDjfv .full-link {
-  position: absolute !important;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  font-size: 0;
-  z-index: 2;
-}
-.cid-qDMXtIDjfv .popup-btn.card-wrapper {
-  z-index: 1 !important;
 }
 .cid-qDMXtHmnjG {
   padding-top: 0px;
@@ -3049,6 +3022,33 @@ body {
 .cid-qDMXtHmnjG .mbr-gallery-item > div > span {
   text-align: center;
   color: #3789a0;
+}
+.cid-qDMXtIDjfv {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #125568;
+  transition: background-color 0.3s ease-in-out;
+}
+.cid-qDMXtIDjfv:hover {
+  background-color: #f9e2af;
+}
+.cid-qDMXtIDjfv .mbr-section-title {
+  margin: 0;
+}
+.cid-qDMXtIDjfv .card-wrapper {
+  z-index: 3;
+}
+.cid-qDMXtIDjfv .full-link {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  z-index: 2;
+}
+.cid-qDMXtIDjfv .popup-btn.card-wrapper {
+  z-index: 1 !important;
 }
 .cid-qDMXtI8ha7 .nav-item:focus,
 .cid-qDMXtI8ha7 .nav-link:focus {
@@ -4286,11 +4286,11 @@ body {
 .cid-qEF8NS5xJv {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #3789a0;
+  background-color: #125568;
   transition: background-color 0.3s ease-in-out;
 }
 .cid-qEF8NS5xJv:hover {
-  background-color: #f9e2af;
+  background-color: #69b9d0;
 }
 .cid-qEF8NS5xJv .mbr-section-title {
   margin: 0;
