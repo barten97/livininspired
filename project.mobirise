@@ -1188,66 +1188,6 @@
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
                 "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dscf2753-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dscf2753-2000x1333-800x533.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/1704-togat-nusa-2933-1300x867.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/1704-togat-nusa-2933-1300x867-800x533.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Awesome",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/gabby-carlos-ishine-photography-9-2000x1332.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/gabby-carlos-ishine-photography-9-2000x1332-800x532.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Responsive",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dscf3452-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dscf3452-2000x1333-800x533.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": false
-              },
-              {
-                "tags": "Animated",
-                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
-                "playVideo": false,
-                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/img-4101-1600x1066.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/img-4101-1600x1066-800x533.jpg",
-                "alt": "",
-                "customStyle1": "display-7",
-                "caption": "Type caption here",
-                "active": true
               }
             ]
           }
@@ -4900,8 +4840,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/livin-inspired-bali-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/livin-inspired-bali-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscf3465-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dscf3465-2000x1333-800x533.jpg",
                 "alt": "",
                 "customStyle1": "display-2",
                 "caption": "Acroyoga",
@@ -4912,8 +4852,8 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/yoga-in-bali-3674-1200x800.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/yoga-in-bali-3674-1200x800-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscf3371-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dscf3371-2000x1333-800x533.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
@@ -4924,24 +4864,24 @@
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/yoga-in-bali-7657-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/yoga-in-bali-7657-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/dscf3015-2-2000x1333.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dscf3015-2-2000x1333-800x533.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Animated",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/dscf2753-2000x1333.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/dscf2753-2000x1333-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/img-4102-1600x1066.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/img-4102-1600x1066-800x533.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Awesome",
@@ -4953,7 +4893,7 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Awesome",
@@ -4965,7 +4905,7 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Responsive",
@@ -4977,7 +4917,7 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Type caption here",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Animated",
