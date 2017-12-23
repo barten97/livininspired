@@ -3537,6 +3537,33 @@ body {
     outline: 15px solid #444444;
   }
 }
+.cid-qEFnZQnh3A {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: #3789a0;
+  transition: background-color 0.3s ease-in-out;
+}
+.cid-qEFnZQnh3A:hover {
+  background-color: #3789a0;
+}
+.cid-qEFnZQnh3A .mbr-section-title {
+  margin: 0;
+}
+.cid-qEFnZQnh3A .card-wrapper {
+  z-index: 3;
+}
+.cid-qEFnZQnh3A .full-link {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  z-index: 2;
+}
+.cid-qEFnZQnh3A .popup-btn.card-wrapper {
+  z-index: 1 !important;
+}
 .cid-qEnh8fV97H {
   padding-top: 60px;
   padding-bottom: 60px;
@@ -3611,7 +3638,7 @@ body {
 .cid-qEFkLK7r0D {
   padding-top: 30px;
   padding-bottom: 30px;
-  background-color: #69b9d0;
+  background-color: #125568;
   transition: background-color 0.3s ease-in-out;
 }
 .cid-qEFkLK7r0D:hover {
@@ -3770,6 +3797,15 @@ body {
 }
 .cid-qEFlJbsJoU .mbr-section-text {
   color: #3789a0;
+}
+.cid-qEFoncNigw {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  background-color: #ffffff;
+}
+.cid-qEFoncNigw .mbr-text,
+.cid-qEFoncNigw .ornament B {
+  color: #125568;
 }
 .cid-qEnmNlhTZK {
   padding-top: 120px;
