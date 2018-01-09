@@ -929,7 +929,7 @@
         {
           "_params": {
             "autoplay": true,
-            "animType": "basic",
+            "animType": "tv",
             "theme": "absent",
             "slides": [
               {
