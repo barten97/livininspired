@@ -4235,6 +4235,9 @@ body {
   padding-bottom: 30px;
   background-color: #ffffff;
 }
+.cid-qDJYllsAKA #justifieddiv {
+  text-align: justify !important;
+}
 .cid-qDJYllsAKA .row {
   flex-direction: row-reverse;
 }
