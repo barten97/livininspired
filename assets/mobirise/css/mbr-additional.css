@@ -4124,6 +4124,9 @@ body {
   padding-bottom: 120px;
   background-image: url("../../../assets/images/livininspired-5-1500x844.jpg");
 }
+.cid-qDK78bP2uP #justifieddiv {
+  text-align: justify !important;
+}
 .cid-qDK78bP2uP *:focus {
   outline: none;
 }
