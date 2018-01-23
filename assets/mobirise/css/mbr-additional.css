@@ -2213,6 +2213,12 @@ body {
     writing-mode: bt-rl;
   }
 }
+.cid-qEmP5m80Hm .mbr-section-text {
+  text-align: left;
+}
+.cid-qEmP5m80Hm .mbr-section-title {
+  text-align: left;
+}
 .cid-qEF2wzvO15 {
   padding-top: 120px;
   padding-bottom: 120px;
@@ -2312,6 +2318,12 @@ body {
   .cid-qEmQiwKAnx .text-box {
     writing-mode: bt-rl;
   }
+}
+.cid-qEmQiwKAnx .mbr-section-title {
+  text-align: left;
+}
+.cid-qEmQiwKAnx .mbr-section-text DIV {
+  text-align: left;
 }
 .cid-qDMXtHmnjG {
   padding-top: 0px;
