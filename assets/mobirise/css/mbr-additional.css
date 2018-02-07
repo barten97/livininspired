@@ -1133,6 +1133,46 @@ body {
 .cid-qDIAlzfT1P .mbr-text {
   color: #125568;
 }
+#custom-html-3x {
+  background: #85bfd0;
+  color: #3D6392;
+  padding: 20px 15px;
+}
+#custom-html-3x #mailchimp {
+  background: #85bfd0;
+  color: #3D6392;
+  padding: 20px 15px;
+}
+#custom-html-3x #mailchimp input {
+  border: medium none;
+  color: gray;
+  font-family: ;
+  font-size: 16px;
+  font-style: ;
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  width: 600px;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+#custom-html-3x #mailchimp input.email {
+  background: #ffffff;
+}
+#custom-html-3x #mailchimp input.name {
+  background: #ffffff;
+}
+#custom-html-3x #mailchimp input[type="submit"] {
+  background: #115B87;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  width: 35%;
+  padding: 8px 0;
+}
+#custom-html-3x #mailchimp input[type="submit"]:hover {
+  color: #f2c94c;
+}
 .cid-qDINwIDc3O {
   padding-top: 60px;
   padding-bottom: 45px;
@@ -3502,26 +3542,26 @@ body {
 .cid-qEF8NS5xJv .popup-btn.card-wrapper {
   z-index: 1 !important;
 }
-.cid-qEF8NR1lx1 {
+.cid-qIZ8CS1W1U {
   padding-top: 0px;
   padding-bottom: 0px;
   background-color: #85bfd0;
 }
-.cid-qEF8NR1lx1 .mbr-slider .carousel-control {
+.cid-qIZ8CS1W1U .mbr-slider .carousel-control {
   background: #1b1b1b;
 }
-.cid-qEF8NR1lx1 .mbr-slider .carousel-control-prev {
+.cid-qIZ8CS1W1U .mbr-slider .carousel-control-prev {
   left: 0;
   margin-left: 2.5rem;
 }
-.cid-qEF8NR1lx1 .mbr-slider .carousel-control-next {
+.cid-qIZ8CS1W1U .mbr-slider .carousel-control-next {
   right: 0;
   margin-right: 2.5rem;
 }
-.cid-qEF8NR1lx1 .mbr-slider .modal-body .close {
+.cid-qIZ8CS1W1U .mbr-slider .modal-body .close {
   background: #1b1b1b;
 }
-.cid-qEF8NR1lx1 .mbr-gallery-item > div::before {
+.cid-qIZ8CS1W1U .mbr-gallery-item > div::before {
   content: '';
   position: absolute;
   left: 0;
@@ -3534,10 +3574,10 @@ body {
   -webkit-transition: 0.2s opacity ease-in-out;
   transition: 0.2s opacity ease-in-out;
 }
-.cid-qEF8NR1lx1 .icon-focus {
+.cid-qIZ8CS1W1U .icon-focus {
   display: none;
 }
-.cid-qEF8NR1lx1 .mbr-gallery-title {
+.cid-qIZ8CS1W1U .mbr-gallery-title {
   transition: all 0.5s ease;
   position: absolute;
   text-align: left;
@@ -3554,10 +3594,10 @@ body {
   -o-transition: all 0.5s ease;
   -ms-transition: all 0.5s ease;
 }
-.cid-qEF8NR1lx1 ul {
+.cid-qIZ8CS1W1U ul {
   font-size: 0;
 }
-.cid-qEF8NR1lx1 .mbr-gallery-filter ul li .btn {
+.cid-qIZ8CS1W1U .mbr-gallery-filter ul li .btn {
   border: none;
   background-color: transparent;
   color: #232323 !important;
@@ -3566,12 +3606,12 @@ body {
   margin: 0!important;
   transition: padding, border 0s, transform .2s;
 }
-.cid-qEF8NR1lx1 .mbr-gallery-filter ul li .btn.active {
+.cid-qIZ8CS1W1U .mbr-gallery-filter ul li .btn.active {
   padding: 0.5rem 1rem 0.5rem;
   border-radius: 0 !important;
   position: relative;
 }
-.cid-qEF8NR1lx1 .mbr-gallery-filter ul li .btn.active:after {
+.cid-qIZ8CS1W1U .mbr-gallery-filter ul li .btn.active:after {
   content: '';
   position: absolute;
   bottom: 0;
@@ -3580,37 +3620,37 @@ body {
   height: 3px;
   background: linear-gradient(90deg, #3789a0, #85bfd0);
 }
-.cid-qEF8NR1lx1 .mbr-gallery-filter ul li {
+.cid-qIZ8CS1W1U .mbr-gallery-filter ul li {
   padding: 0;
 }
-.cid-qEF8NR1lx1 .mbr-gallery-item > div:hover .mbr-gallery-title {
+.cid-qIZ8CS1W1U .mbr-gallery-item > div:hover .mbr-gallery-title {
   padding-bottom: 1.5rem;
   display: block;
 }
-.cid-qEF8NR1lx1 .mbr-gallery-item > div:hover:before {
+.cid-qIZ8CS1W1U .mbr-gallery-item > div:hover:before {
   opacity: 0.8 !important;
 }
-.cid-qEF8NR1lx1 .btn {
+.cid-qIZ8CS1W1U .btn {
   background: none;
   border-radius: 0 !important;
 }
-.cid-qEF8NR1lx1 .btn:hover {
+.cid-qIZ8CS1W1U .btn:hover {
   background: transparent !important;
 }
-.cid-qEF8NR1lx1 .btn:hover:before {
+.cid-qIZ8CS1W1U .btn:hover:before {
   background: transparent !important;
 }
-.cid-qEF8NR1lx1 .btn:before {
+.cid-qIZ8CS1W1U .btn:before {
   background-color: transparent !important;
 }
-.cid-qEF8NR1lx1 .btn:focus {
+.cid-qIZ8CS1W1U .btn:focus {
   box-shadow: none;
 }
-.cid-qEF8NR1lx1 .mbr-section-title {
+.cid-qIZ8CS1W1U .mbr-section-title {
   position: relative;
   z-index: 1;
 }
-.cid-qEF8NR1lx1 .mbr-gallery-item > div > span {
+.cid-qIZ8CS1W1U .mbr-gallery-item > div > span {
   text-align: center;
   color: #3789a0;
 }
@@ -3885,6 +3925,46 @@ body {
   .cid-qEF8NRDOXb .navbar.opened {
     height: auto;
   }
+}
+#custom-html-3y {
+  background: #85bfd0;
+  color: #3D6392;
+  padding: 20px 15px;
+}
+#custom-html-3y #mailchimp {
+  background: #85bfd0;
+  color: #3D6392;
+  padding: 20px 15px;
+}
+#custom-html-3y #mailchimp input {
+  border: medium none;
+  color: gray;
+  font-family: ;
+  font-size: 16px;
+  font-style: ;
+  margin-bottom: 10px;
+  padding: 8px 10px;
+  width: 600px;
+  border-radius: 20px;
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+}
+#custom-html-3y #mailchimp input.email {
+  background: #ffffff;
+}
+#custom-html-3y #mailchimp input.name {
+  background: #ffffff;
+}
+#custom-html-3y #mailchimp input[type="submit"] {
+  background: #115B87;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  width: 35%;
+  padding: 8px 0;
+}
+#custom-html-3y #mailchimp input[type="submit"]:hover {
+  color: #f2c94c;
 }
 .cid-qEF8NSkG6u {
   padding-top: 75px;
