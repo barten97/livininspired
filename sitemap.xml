@@ -3,9 +3,6 @@
 		<loc>http://www.livininspired.com/index.html</loc>
 	</url>
 	<url>
-		<loc>http://www.livininspired.com/healing-arts.html</loc>
-	</url>
-	<url>
 		<loc>http://www.livininspired.com/yoga-bali.html</loc>
 	</url>
 	<url>
@@ -25,5 +22,11 @@
 	</url>
 	<url>
 		<loc>http://www.livininspired.com/404page.html</loc>
+	</url>
+	<url>
+		<loc>http://www.livininspired.com/healing-touch.html</loc>
+	</url>
+	<url>
+		<loc>http://www.livininspired.com/healing-arts.html</loc>
 	</url>
 </urlset>
